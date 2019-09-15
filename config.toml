@@ -1,4 +1,4 @@
 baseURL = "https://rawdatum.com/"
 languageCode = "en-us"
 title = "Raw Datum"
-theme = "ananke"
+theme = "academic"
