@@ -1,4 +1,84 @@
 baseURL = "https://rawdatum.com/"
 languageCode = "en-us"
 title = "Raw Datum"
-theme = "academic"
+theme = "binario"
+paginate = "10" # Number of posts per page
+#disqusShortname = "" # Enable comments by entering your Disqus shortname
+#googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author] # Used in authorbox
+  name = "Keith McDuffee"
+#  bio = "Keith McDuffee is a IT and DevOps professional..."
+#  avatar = "img/avatar.png"
+
+[Params]
+  description = "IT, DevOps and Security: One Piece at a Time" # Site Description. Used in meta description
+  copyright = "Keith McDuffee" # Copyright holder, otherwise will use .Site.Title
+  opengraph = true # Enable OpenGraph if true
+  twitter_cards = true # Enable Twitter Cards if true
+  columns = 2 # Set the number of cards columns. Possible values: 1, 2, 3
+  mainSections = ["posts"] # Set main page sections
+  post_meta = ["date", "categories"] # Enable post meta fields in given order
+  dateFormat = "January 02, 2006" # Change the format of dates
+  colorTheme = "dark-green" # dark-green, dark-blue, dark-red, dark-violet
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
+  mainMenuAlignment = "right" # Align main menu (desktop version) to the right side
+  authorbox = true # Show authorbox at bottom of single pages if true
+  toc = true # Enable Table of Contents for all site pages
+  tocOpen = true # Open Table of Contents block. Optional
+  comments = true # Enable comments for all site pages
+  related = true # Enable Related content for single pages
+  relatedMax = 5 # Set the maximum number of posts that can be displayed in related block. Optional
+  mathjax = true # Enable MathJax for all site pages
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path. Optional
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config. Optional
+  hideNoPostsWarning = false # Don't show no posts empty state warning in main page, if true
+
+[Params.Social]
+  email = "keith@realistek.com"
+#  facebook = "username"
+  twitter = "Gudlyf"
+#  telegram = "username"
+#  instagram = "username"
+#  pinterest = "username"
+#  vk = "username"
+  linkedin = "gudlyf"
+  github = "gudlyf"
+#  gitlab = "username"
+#  stackoverflow = "numberid"
+#  mastodon = "https://some.instance/@username"
+  medium = "gudlyf"
+
+[Params.Share] # Post Share block
+  facebook = true
+  twitter = true
+  reddit = true
+  telegram = true
+  linkedin = true
+  vk = true
+  pocket = true
+
+# Web App Manifest settings
+# https://www.w3.org/TR/appmanifest/
+# https://developers.google.com/web/fundamentals/web-app-manifest/
+#[Params.Manifest]
+#  name = "Binario"
+#  shortName = "Binario"
+#  display = "browser"
+#  startUrl = "/"
+#  backgroundColor = "#2a2a2a"
+#  themeColor = "#1b1b1b"
+#  description = "Responsive card-based & code-light Hugo theme"
+#  orientation = "portrait"
+#  scope = "/"
+
+[outputFormats]
+  [outputFormats.MANIFEST]
+    mediaType = "application/json"
+    baseName = "manifest"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "RSS", "MANIFEST"]
