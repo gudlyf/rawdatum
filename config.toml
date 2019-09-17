@@ -8,7 +8,7 @@ paginate = "10" # Number of posts per page
 
 [Author] # Used in authorbox
   name = "Keith McDuffee"
-#  bio = "Keith McDuffee is a IT and DevOps professional..."
+  bio = "Keith McDuffee is an apologetic, overly-seasoned IT, DevOps and security professional in the New England region of the USA."
 #  avatar = "img/avatar.png"
 
 [Params]
