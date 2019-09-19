@@ -9,7 +9,7 @@ paginate = "10" # Number of posts per page
 [Author] # Used in authorbox
   name = "Keith McDuffee"
 #  bio = "Keith McDuffee is a IT and DevOps professional..."
-#  avatar = "img/avatar.png"
+  avatar = "/me-profile-pic.jpg"
 
 [Params]
   description = "IT, DevOps and Security: One Piece at a Time" # Site Description. Used in meta description
