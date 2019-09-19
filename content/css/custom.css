@@ -1,0 +1,10 @@
+.logo {
+    background-image: url("/images/rawdatum-logo-small.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 400px;
+	padding: 2.398rem 1.925rem;
+	font-size: 32px;
+    font-weight: 700;
+    text-align: right;
+}

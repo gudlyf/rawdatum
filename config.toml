@@ -9,7 +9,7 @@ googleAnalytics = "UA-2060500-12" # Enable Google Analytics by entering your tra
 [Author] # Used in authorbox
   name = "Keith McDuffee"
   bio = "Keith McDuffee is an apologetic, overly-seasoned IT, DevOps and security professional in the New England region of the USA."
-  avatar = "/me-profile-pic.jpg"
+  avatar = "/images/me-profile-pic.jpg"
 
 [Params]
   description = "IT, DevOps and Security: One Piece at a Time" # Site Description. Used in meta description

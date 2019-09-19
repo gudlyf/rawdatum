@@ -6,7 +6,7 @@ draft: false
 
 <center>
 ![Raw Datum][logo]
-[logo]: /rawdatum-logo.png "Raw Datum"
+[logo]: /images/rawdatum-logo.png "Raw Datum"
 </center>
 
 Passion is an interesting concept. Everyone has a different thing or person or act that defines passion for them. In the end, though, it pretty much means the same thing: it's what drives you. Personally. Emotionally. Maybe financially, if you're that sort. It's what excites you, maybe gives you a sense of purpose, or a goal to work toward. Wakes you up. Gets your attention. But does it define you?
