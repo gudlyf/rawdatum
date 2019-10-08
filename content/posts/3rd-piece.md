@@ -1,6 +1,6 @@
 ---
 title: "3rd Piece: The Cloud-Agnostic Argument"
-date: 2019-19-07T23:46:45-04:00
+date: 2019-10-07T20:46:45-04:00
 draft: false
 ---
 
