@@ -4,7 +4,7 @@ date: 2019-11-15T15:36:22-05:00
 draft: false
 ---
 
-Lots of folks working with AWS EC2 know about utilizing the [back-end metadata URL](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) (http://169.254.169.254/latest/meta-data/) for retrieving instance information. Some of the information you get from this link is pretty innocuous: availability zone, AMI. Some is pretty revealing: IP address and -- most damaging in the wrong hands -- instance IAM credentials.
+Lots of folks working with AWS EC2 know about utilizing the [back-end metadata URL](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) (http://<span></span>169.254.169.254/latest/meta-data/) for retrieving instance information. Some of the information you get from this link is pretty innocuous: availability zone, AMI. Some is pretty revealing: IP address and -- most damaging in the wrong hands -- instance IAM credentials.
 
 Yes, if your instance has an IAM Role attached to it, its credentials -- although technically temporary/rotating -- are retrieved through this metadata URI. In fact, if your instance cannot reach the metadata URI, then it can't interact with the AWS API with whatever permissions you attached to the role.
 
